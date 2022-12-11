@@ -1,0 +1,9 @@
+Try running all test in below browser - via selenium-standalone service
+    Chrome
+    Firefox
+    Edge
+
+Try
+    doubleClick()
+    saveScreenshot
+    uploadFile()
