@@ -34,7 +34,7 @@ describe('Login Test Suite', function () {
 
       expect(browser).toHaveUrlContaining("dashboard")
 
-      await (await $("img[alt='profile picture1']")).click();
+      await (await $("img[alt='profile picture']")).click();
 
       //await browser.pause(3000)
 
