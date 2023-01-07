@@ -53,6 +53,10 @@ exports.config = {
     //
     capabilities: [{
         browserName: 'chrome',
+        acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            args: ["--headless", "user-agent=...", "--disable-gpu", "--window-size=1440,735"]
+        }
     }
     ],
 
