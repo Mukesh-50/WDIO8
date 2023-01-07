@@ -3,7 +3,7 @@
 
 name: Node.js Package
 
-on:[push, pull_request]
+on:push
 
 jobs:
   build:
@@ -15,9 +15,9 @@ jobs:
           node-version: 16
       - name: Install
           run: npm install
-        - name: Test
+      - name: Test
           run: npm run wdio
-        - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v1
           if: failure()
           with:
             name: logs
