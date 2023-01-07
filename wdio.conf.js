@@ -67,9 +67,9 @@ exports.config = {
     },
 
     afterTest: async function (test, context, { error, result, duration, passed, retries }) {
-        await browser.takeScreenshot();
+        if (error) {
+            await browser.takeScreenshot();
+        }
     },
-
-
 
 }
