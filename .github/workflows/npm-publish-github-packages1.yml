@@ -14,12 +14,11 @@ jobs:
         with:
           node-version: 16
       - name: Install
-          run: npm install
+        run: npm install
       - name: Test
-          run: npm run wdio
+        run: npm run wdio
       - uses: actions/upload-artifact@v1
-          if: failure()
-          with:
+        with:
             name: logs
             path: logs
 
