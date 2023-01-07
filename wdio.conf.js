@@ -103,7 +103,7 @@ exports.config = {
         logFileName: 'wdio-chromedriver.log', // default
         outputDir: 'driver-logs', // overwrites the config.outputDir
         args: ['--no-sandbox']
-    }]
+    }],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
