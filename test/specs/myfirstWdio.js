@@ -18,7 +18,7 @@ describe('Login Test Suite', function () {
 
       await browser.url("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
-      const user = await $("//input[@name='username1']")
+      const user = await $("//input[@name='username']")
 
       console.log("Clickable ? " + await user.isClickable())
 
@@ -34,7 +34,7 @@ describe('Login Test Suite', function () {
 
       expect(browser).toHaveUrlContaining("dashboard")
 
-      await (await $("img[alt='profile picture']")).click();
+      await (await $("img[alt='profile picture1']")).click();
 
       //await browser.pause(3000)
 

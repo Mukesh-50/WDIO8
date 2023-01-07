@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673087417851' stop='1673087425829'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673100602704' stop='1673100614378'>
     <name>Login Test Suite</name>
     <title>Login Test Suite</title>
     <test-cases>
-        <test-case start='1673087417852' status='passed' stop='1673087420851'>
+        <test-case start='1673100602705' status='passed' stop='1673100608004'>
             <name>First Test In WDIO</name>
             <title>First Test In WDIO</title>
             <labels>
@@ -15,9 +15,11 @@
                 <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
             </parameters>
             <steps/>
-            <attachments/>
+            <attachments>
+                <attachment title='Screenshot' source='d5be95d1-2cbd-45b0-83f3-9bc847f8ee93-attachment.png' type='image/png' size='64959'/>
+            </attachments>
         </test-case>
-        <test-case start='1673087420855' status='passed' stop='1673087425824'>
+        <test-case start='1673100608004' status='broken' stop='1673100614374'>
             <name>Login Test In WDIO</name>
             <title>Login Test In WDIO</title>
             <labels>
@@ -29,7 +31,14 @@
                 <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
             </parameters>
             <steps/>
-            <attachments/>
+            <attachments>
+                <attachment title='Screenshot' source='56160e7c-1927-43af-b156-0e416c859117-attachment.png' type='image/png' size='93628'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "img[alt='profile picture1']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "img[alt='profile picture1']" because element wasn't found
+                    at async Context.&lt;anonymous> (C:\Users\l\Desktop\WDIO_8\WDIO8\test\specs\myfirstWdio.js:37:7)</stack-trace>
+            </failure>
         </test-case>
     </test-cases>
 </ns2:test-suite>

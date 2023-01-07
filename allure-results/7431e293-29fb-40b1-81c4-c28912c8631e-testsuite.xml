@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673088280719' stop='1673088288706'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673100055988' stop='1673100067350'>
     <name>Login Test Suite</name>
     <title>Login Test Suite</title>
     <test-cases>
-        <test-case start='1673088280720' status='passed' stop='1673088284286'>
+        <test-case start='1673100055990' status='passed' stop='1673100060048'>
             <name>First Test In WDIO</name>
             <title>First Test In WDIO</title>
             <labels>
@@ -15,11 +15,9 @@
                 <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
             </parameters>
             <steps/>
-            <attachments>
-                <attachment title='Screenshot' source='b05d2c6c-e4ad-484c-be2f-78884562cd7e-attachment.png' type='image/png' size='5203'/>
-            </attachments>
+            <attachments/>
         </test-case>
-        <test-case start='1673088284287' status='broken' stop='1673088288698'>
+        <test-case start='1673100060049' status='passed' stop='1673100067348'>
             <name>Login Test In WDIO</name>
             <title>Login Test In WDIO</title>
             <labels>
@@ -31,14 +29,7 @@
                 <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
             </parameters>
             <steps/>
-            <attachments>
-                <attachment title='Screenshot' source='c7965fe3-b435-422b-8a6e-799b3e41f4af-attachment.png' type='image/png' size='64947'/>
-            </attachments>
-            <failure>
-                <message>Can't call isEnabled on element with selector "//input[@name='username1']" because element wasn't found</message>
-                <stack-trace>Error: Can't call isEnabled on element with selector "//input[@name='username1']" because element wasn't found
-                    at async Context.&lt;anonymous> (C:\Users\l\Desktop\WDIO_8\WDIO8\test\specs\myfirstWdio.js:27:34)</stack-trace>
-            </failure>
+            <attachments/>
         </test-case>
     </test-cases>
 </ns2:test-suite>
