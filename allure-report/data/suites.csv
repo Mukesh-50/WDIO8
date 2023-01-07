@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 07 16:14:40 IST 2023","Sat Jan 07 16:14:44 IST 2023","3566","","Login Test Suite","","Login Test Suite","First Test In WDIO","First Test In WDIO",""
+"broken","Sat Jan 07 16:14:44 IST 2023","Sat Jan 07 16:14:48 IST 2023","4411","","Login Test Suite","","Login Test Suite","Login Test In WDIO","Login Test In WDIO",""

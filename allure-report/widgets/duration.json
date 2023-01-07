@@ -1,0 +1,1 @@
+[{"uid":"d020dfbfe731bdd3","name":"First Test In WDIO","time":{"start":1673088280720,"stop":1673088284286,"duration":3566},"status":"passed","severity":"normal"},{"uid":"818a855dda3894d0","name":"Login Test In WDIO","time":{"start":1673088284287,"stop":1673088288698,"duration":4411},"status":"broken","severity":"normal"}]
