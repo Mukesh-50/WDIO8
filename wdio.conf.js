@@ -5,7 +5,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    
+
     //
     // ==================
     // Specify Test Files
@@ -53,9 +53,9 @@ exports.config = {
     //
     capabilities: [{
         browserName: 'chrome',
-    }   
-],
-  
+    }
+    ],
+
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'debug',
     //
@@ -99,11 +99,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     //services: ['chromedriver'],
     //services: ['selenium-standalone'],
-    services: ['chromedriver', {
-        logFileName: 'wdio-chromedriver.log', // default
-        outputDir: 'driver-logs', // overwrites the config.outputDir
-        args: ['--no-sandbox']
-    }],
+    services: ['chromedriver'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -128,7 +124,7 @@ exports.config = {
     reporters: ['spec'],
 
 
-    
+
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
